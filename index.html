@@ -208,7 +208,7 @@
           <div id="auth-area">
             <button onclick="openLoginModal()" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition">
               <i data-lucide="log-in" class="w-3.5 h-3.5"></i>
-              <span>Portal Login</span>
+              <span>Login</span>
             </button>
           </div>
         </div>
@@ -760,7 +760,7 @@
     </div>
 
     <!-- ========================================================= -->
-    <!-- MODAL 2: LOGIN STAFF / ADMIN                              -->
+    <!-- MODAL 2: LOGIN / ADMIN                              -->
     <!-- ========================================================= -->
     <div id="modal-login" class="no-print hidden fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4">
       <div class="bg-white rounded-2xl max-w-md w-full border border-slate-200 shadow-xl overflow-hidden">
@@ -770,8 +770,8 @@
               <i data-lucide="shield-check" class="w-5 h-5"></i>
             </div>
             <div>
-              <h3 class="text-base font-bold text-slate-900">Login Pengelola Akademik</h3>
-              <p class="text-[11px] text-slate-500">Khusus Wakil Kurikulum, Guru & Pembina OSIS</p>
+              <h3 class="text-base font-bold text-slate-900">Portal Login</h3>
+              <p class="text-[11px] text-slate-500">Silahkan login menggunakan akun Anda!</p>
             </div>
           </div>
           <button onclick="closeModal('modal-login')" class="p-1.5 rounded-xl text-slate-400 hover:bg-slate-100">
@@ -1482,7 +1482,7 @@
         authArea.innerHTML = `
           <button onclick="openLoginModal()" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 shadow-sm transition">
             <i data-lucide="log-in" class="w-3.5 h-3.5"></i>
-            <span>Login Staff</span>
+            <span>Login</span>
           </button>
         `;
         navKelolaD.classList.add("hidden");
